@@ -8,15 +8,15 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/conku/admin"
+	"github.com/conku/qor"
+	"github.com/conku/qor/resource"
+	"github.com/conku/qor/utils"
 	"github.com/jinzhu/now"
-	"github.com/qor/admin"
-	"github.com/qor/qor"
-	"github.com/qor/qor/resource"
-	"github.com/qor/qor/utils"
 )
 
 func init() {
-	admin.RegisterViewPath("github.com/qor/metas/frequency/views")
+	admin.RegisterViewPath("github.com/conku/metas/frequency/views")
 }
 
 // Frequencier frequencier interface

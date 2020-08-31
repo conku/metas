@@ -6,12 +6,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/qor/admin"
-	"github.com/qor/qor/resource"
+	"github.com/conku/admin"
+	"github.com/conku/qor/resource"
 )
 
 func init() {
-	admin.RegisterViewPath("github.com/qor/metas/daterange/views")
+	admin.RegisterViewPath("github.com/conku/metas/daterange/views")
 }
 
 // DateRanger date ranger interface
