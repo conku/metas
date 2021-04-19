@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/conku/admin"
+	"github.com/conku/now"
 	"github.com/conku/qor"
 	"github.com/conku/qor/resource"
 	"github.com/conku/qor/utils"
-	"github.com/jinzhu/now"
 )
 
 func init() {
